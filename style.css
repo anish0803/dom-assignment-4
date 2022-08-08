@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h1{
+    text-align: center ;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    width:30%;
+    height: 100vh;
+    margin: 10px;
+    padding: 20px 30px;
+}
+
+.rule{
+    border-bottom: 4px solid #1d1c1c;
+    margin: 10px 0;
+}
+
+.list{
+    list-style: none;
+}
+h2{
+    text-align: center;
+}
